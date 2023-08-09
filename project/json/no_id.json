@@ -1,0 +1,9 @@
+{
+  "jsonSchema": { "title": "Form" },
+  "uiSchema": {},
+  "formData": {},
+  "alerts": { "success": "Submission Received!" },
+  "notify": [
+    { "method": "email", "recipient": "dev@davidjaybuckley.com", "details": {} }
+  ]
+}

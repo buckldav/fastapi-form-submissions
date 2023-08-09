@@ -1,0 +1,11 @@
+{
+  "jsonSchema": {
+    "$id": "ad05699e-44d3-4968-b4e9-19e467845aaf",
+    "title": "Form",
+    "type": 12
+  },
+  "uiSchema": {},
+  "formData": {},
+  "alerts": {},
+  "notify": []
+}

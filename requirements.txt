@@ -1,0 +1,7 @@
+pydantic
+fastapi
+uvicorn
+python-decouple
+jsonschema[format]
+fastapi-mail
+pytest-asyncio

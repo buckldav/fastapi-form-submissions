@@ -1,0 +1,11 @@
+{
+  "jsonSchema": {
+    "$id": "ad05699e-44d3-4968-b4e9-19e467845aaf"
+  },
+  "uiSchema": {},
+  "formData": {},
+  "alerts": { "success": "Submission Received!" },
+  "notify": [
+    { "method": "email", "recipient": "dev@davidjaybuckley.com", "details": {} }
+  ]
+}

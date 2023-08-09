@@ -1,0 +1,33 @@
+{
+  "jsonSchema": {
+    "$id": "113000c6-fd36-420b-8971-403546817f4c",
+    "title": "Contact",
+    "type": "object",
+    "properties": {
+      "smforms-bot-field": {
+        "type": "null",
+        "title": "Do not fill this out if you are human:"
+      },
+      "name": { "type": "string", "maxLength": 70, "title": "Name" },
+      "email": {
+        "type": "string",
+        "format": "email",
+        "maxLength": 255,
+        "title": "Email"
+      },
+      "message": { "type": "string", "title": "Message" }
+    },
+    "required": ["name", "email", "message"]
+  },
+  "uiSchema": {
+    "smforms-bot-field": { "ui:classNames": "hidden" },
+    "name": { "ui:autofocus": true },
+    "email": {},
+    "message": { "ui:options": { "widget": "textarea", "rows": 3 } }
+  },
+  "formData": {},
+  "alerts": { "success": "Submission Received!" },
+  "notify": [
+    { "method": "email", "recipient": "me@example.com", "details": {} }
+  ]
+}
